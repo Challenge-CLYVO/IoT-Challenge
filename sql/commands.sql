@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS iot_pet;
 
 USE iot_pet;
 
--- Histórico de eventos e classificações existentes
+-- Historico de eventos e classificacoes
 CREATE TABLE IF NOT EXISTS pet_saude (
     id INT AUTO_INCREMENT PRIMARY KEY,
     descricao VARCHAR(100),
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS pet_saude (
     data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Leituras numéricas para análise e modelo de IA
+-- Leituras numericas para analise futura
 CREATE TABLE IF NOT EXISTS leituras_pet (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     pet_id INT NOT NULL,
