@@ -1,0 +1,6 @@
+﻿pet_id,tipo,valor,data_registro
+104,temperatura,30,2026-10-21 08:00:00
+104,temperatura,31,2026-10-21 08:00:01
+104,temperatura,30,2026-10-21 08:00:02
+104,temperatura,32,2026-10-21 08:00:03
+104,temperatura,abc,2026-10-21 08:00:04
